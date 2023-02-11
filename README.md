@@ -9,3 +9,5 @@ The data was constructed by first selecting the [District postcodes](https://en.
 The CH records contain also the UK Standard Industry Classification (SIC 2007) code for each company. After generating a custom colour code for the 88 SIC Divisions (business sectors), a tally of the filtered companies over these divisions was calculated.
 
 Finally, Mathematica was used to generate 84 maps, where each map visualises the companies belonging to the corrosponding division as a set of points coloured with the colour maps and geolocated using the GPS coordinates corresponding to its Unit postcode.
+
+(The Doogal and the Companies House data is released under the [Open Government Licence v.3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).) 
