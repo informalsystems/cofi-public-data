@@ -6,7 +6,7 @@ The first such data set concerns the city of Lancaster and surrounding area. It 
 
 The data was constructed by first selecting the [District postcodes](https://en.wikipedia.org/wiki/Postcodes_in_the_United_Kingdom) of Lancaster (LA1 to LA7) from [Doogal](https://www.doogal.co.uk/Counties?county=E10000017) and then filtering all the CH companies that fall within these 7 postcode districts. The Doogal data includes GPS coordinates for each Unit postcode.
 
-The CH records contain also the UK Standard Industry Classification (SIC 2007) code for each company. After generating a custom colour code for the 88 SIC Divisions (business sectors), a tally (distribution) of the filtered companies over these divisions was calculated.
+The CH records contain also the UK Standard Industry Classification (SIC 2007) code for each company. After generating a custom colour code for the 88 SIC Divisions (business sectors), a tally (distribution) was calculated by filtering the companies over these divisions.
 
 Finally, Mathematica was used to generate 84 maps, where each map visualises the companies belonging to the corrosponding division as a set of points coloured with the colour maps and geolocated using the GPS coordinates corresponding to its Unit postcode.
 
